@@ -1,5 +1,6 @@
 body {
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto Serif", sans-serif;
+  font-size: 20px;
   margin: 0;
 }
 
@@ -18,7 +19,7 @@ header {
 }
 
 #imgBanner {
-  width: 329.52px;
+  width: 30%;
   display: inline-block;
   margin: 0%;
 }
@@ -32,7 +33,7 @@ header {
 
 #icons {
   display: inline-block;
-  width: 329.52px;
+  width: 30%;
   justify-content: center;
   text-align: right;
   text-transform: uppercase;
@@ -57,7 +58,7 @@ nav li {
 }
 
 .imgEventos {
-  border-radius: 15px;
+  border-radius: 10px;
   width: 23rem;
   height: 16rem;
 }
@@ -75,6 +76,7 @@ nav li {
   text-align: center;
   color: #8c0c04;
   display: inline;
+  font-size: 2rem;
 }
 
 .legendaImagem {
@@ -91,16 +93,52 @@ nav li {
   display: inline;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 p {
   text-align: center;
 }
 
-#inclusos {
-  font-size: 20px;
-}
-
 strong {
   color: #8c0c04;
+}
+
+footer {
+  background-color: #fff4e2;
+  font-size: 17px;
+}
+
+.linha {
+  display: flex;
+  margin: 0%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.unica {
+  text-align: center;
+  padding: 1rem;
+}
+
+.colunaFooter {
+  margin-left: 30px;
+  margin-right: 30px;
+  display: inline-block;
+  text-align: center;
+}
+
+.icone {
+  width: 50px;
+  margin: 5px;
+}
+
+.mapa {
+  width: 100%;
+  text-align: center;
 }
 
 /* 

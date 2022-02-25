@@ -40,6 +40,11 @@ header {
   font-size: 15px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 nav li {
   display: inline-block;
 }
@@ -57,13 +62,21 @@ nav li {
 }
 
 .imagemCardImagem {
-  border-radius: 25px;
+  border-radius: 10px;
   width: 25rem;
   height: 33rem;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 12px;
 }
 
 .legendaImagem {
   font-size: 20px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 12px;
 }
 
 .novoTitulo {
@@ -74,6 +87,41 @@ nav li {
 .tituloCentralizado {
   color: #8c0c04;
   display: inline;
+}
+
+footer {
+  background-color: #fff4e2;
+  font-size: 17px;
+}
+
+.linha {
+  display: flex;
+  margin: 0%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.unica {
+  text-align: center;
+  padding: 1rem;
+}
+
+.colunaFooter {
+  margin-left: 30px;
+  margin-right: 30px;
+  display: inline-block;
+  text-align: center;
+}
+
+.icone {
+  width: 50px;
+  margin: 5px;
+}
+
+.mapa {
+  width: 100%;
+  text-align: center;
 }
 
 /* 
