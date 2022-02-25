@@ -1,0 +1,114 @@
+body {
+  font-family: "Playfair Display", serif;
+  margin: 0;
+}
+
+#banner {
+  text-align: left;
+  width: 12rem;
+}
+
+header {
+  display: flex;
+  margin: 0%;
+  width: 100%;
+  align-items: center;
+  background-color: #fff4e2;
+  justify-content: space-between;
+}
+
+#imgBanner {
+  width: 329.52px;
+  display: inline-block;
+  margin: 0%;
+}
+
+#bemvindo {
+  display: inline-block;
+  width: auto;
+  text-align: center;
+  align-items: center;
+}
+
+#icons {
+  display: inline-block;
+  width: 329.52px;
+  justify-content: center;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+.eventos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cardEventos {
+  margin: 5px;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+}
+
+.imgEventos {
+  border-radius: 15px;
+  width: 23rem;
+  height: 16rem;
+}
+
+.itens {
+  align-items: center;
+  font-style: italic;
+}
+
+#eventos {
+  text-align: center;
+}
+
+.tituloCentralizado {
+  text-align: center;
+  color: #8c0c04;
+  display: inline;
+}
+
+.legendaImagem {
+  font-size: 20px;
+}
+
+.novoTitulo {
+  text-align: center;
+  margin: 30px;
+}
+
+.tituloCentralizado {
+  color: #8c0c04;
+  display: inline;
+}
+
+p {
+  text-align: center;
+}
+
+#inclusos {
+  font-size: 20px;
+}
+
+strong {
+  color: #8c0c04;
+}
+
+/* 
+.color1 { #d1ac27 };
+.color2 { #f4e1a4 };
+.color3 { #8c0c04 };
+.color4 { #896466 };
+.color5 { #d2b0a3 };
+.color6 { #ee9d8c };
+.color7 { #FFF4E2 };
+*/
