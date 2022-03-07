@@ -1,0 +1,194 @@
+body {
+  font-family: "Roboto Serif", sans-serif;
+  font-size: 20px;
+}
+
+#banner {
+  text-align: left;
+  width: 12rem;
+}
+
+header {
+  display: flex;
+  margin: 0%;
+  width: 100%;
+  align-items: center;
+  background-color: #fff4e2;
+  justify-content: space-between;
+}
+
+#imgBanner {
+  width: 30%;
+  display: inline-block;
+  margin: 0%;
+}
+
+#bemvindo {
+  display: inline-block;
+  width: auto;
+  text-align: center;
+  align-items: center;
+}
+
+#icons {
+  display: inline-block;
+  width: 30%;
+  justify-content: center;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+.eventos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cardEventos {
+  margin: 5px;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+}
+
+.imgEventos {
+  border-radius: 10px;
+  width: 23rem;
+  height: 16rem;
+}
+
+.itens {
+  align-items: center;
+  font-style: italic;
+}
+
+#eventos {
+  text-align: center;
+}
+
+.tituloCentralizado {
+  text-align: center;
+  color: #8c0c04;
+  display: inline;
+  font-size: 2rem;
+}
+
+.legendaImagem {
+  font-size: 20px;
+}
+
+.novoTitulo {
+  text-align: center;
+  margin: 30px;
+}
+
+.tituloCentralizado {
+  color: #8c0c04;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  text-align: center;
+}
+
+strong {
+  color: #8c0c04;
+}
+
+footer {
+  background-color: #fff4e2;
+  font-size: 17px;
+}
+
+.linha {
+  display: flex;
+  margin: 0%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.unica {
+  text-align: center;
+  padding: 1rem;
+}
+
+.colunaFooter {
+  margin-left: 30px;
+  margin-right: 30px;
+  display: inline-block;
+  text-align: center;
+}
+
+.icone {
+  width: 50px;
+  margin: 5px;
+}
+
+.mapa {
+  width: 100%;
+  text-align: center;
+}
+
+main {
+  width: 463px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+input {
+  display: block;
+  margin: 0 0 10px;
+  padding: 10px 25px;
+  width: 50%;
+}
+textarea {
+  display: block;
+  margin: 0 0 10px;
+}
+
+.enviar {
+  padding: 15px 0;
+  width: 70%;
+  font-size: 20px;
+  font: bold;
+  border: none;
+  border-radius: 5px;
+  background: #fff4e2;
+  transition: 1s all;
+}
+
+.enviar:hover {
+  background: #8c0c04;
+  color: white;
+  transform: scale(1.2);
+}
+
+/* 
+  .color1 { #d1ac27 };
+  .color2 { #f4e1a4 };
+  .color3 { #8c0c04 };
+  .color4 { #896466 };
+  .color5 { #d2b0a3 };
+  .color6 { #ee9d8c };
+  .color7 { #FFF4E2 };
+  */

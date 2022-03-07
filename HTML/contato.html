@@ -8,9 +8,9 @@
 
     <meta charset="UTF-8">
 
-    <title> Galeria </title>
+    <title> Contato </title>
 
-    <link rel="stylesheet" href="/CSS/galeria.css">
+    <link rel="stylesheet" href="/CSS/contato.css">
 </head>
 
 <body>
@@ -34,62 +34,22 @@
         </div>
     </header>
 
-    <div class="novoTitulo">
-        <h2 class="tituloCentralizado">
-            Area Externa
-        </h2>
-    </div>
-
     <main>
-        <div class="espacoDonaThereza">
-            <div class="cardImagem">
-                <img class="imagemCardImagem" src="/IMG/LOCAL/Area externa/churrasqueira.jpg">
-                <p class="legendaImagem"> Churrasqueira</p>
-            </div>
-            <div class="cardImagem">
-                <img class="imagemCardImagem" src="/IMG/LOCAL/Area externa/churrasqueira2.jpg">
-                <p class="legendaImagem"> Churrasqueira</p>
-            </div>
-            <div class="cardImagem">
-                <img class="imagemCardImagem" src="/IMG/LOCAL/Area externa/churrasqueira3.jpg">
-                <p class="legendaImagem"> Churrasqueira</p>
-            </div>
+        <form>
+            <label for="nomeSobrenome"> Nome e Sobrenome </label>
+            <input type="text" id="nomeSobrenome" required placeholder="Nome e Sobrenome">
 
-            <div class="cardImagem">
-                <img class="imagemCardImagem" src="/IMG/LOCAL/Area externa/churrasqueira4.jpg">
-                <p class="legendaImagem"> Churrasqueira</p>
-            </div>
-        </div>
+            <label for="email"> Email </label>
+            <input type="email" id="email" required placeholder="exemplo@gmail.com">
 
-        <div class="novoTitulo">
-            <h2 class="tituloCentralizado">
-                Brinquedoteca
-            </h2>
-        </div>
+            <label for="telefone"> Telefone </label>
+            <input type="tel" id="telefone" required placeholder="(XX) XXXXX-XXXX">
 
-        <div class="espacoDonaThereza">
-            <div class="cardImagem">
-                <img class="imagemCardImagem" src="/IMG/LOCAL/Brinquedoteca/criancas.jpg">
-                <p class="legendaImagem"> Brinquedoteca</p>
-            </div>
-            <div class="cardImagem">
-                <img class="imagemCardImagem" id="macacoBrinquedoteca" src="/IMG/LOCAL/Brinquedoteca/criancas2.jpg">
-                <p class="legendaImagem"> Brinquedoteca</p>
-            </div>
-        </div>
+            <label for="observacao"> Observação </label>
+            <textarea id="observacao" rows="10" cols="60"> </textarea>
 
-        <div class="novoTitulo">
-            <h2 class="tituloCentralizado">
-                Estacionamento
-            </h2>
-        </div>
-
-        <div class="espacoDonaThereza">
-            <div class="cardImagem">
-                <img class="imagemCardImagem" src="/IMG/LOCAL/Estacionamento/estacionamento.jpg">
-                <p class="legendaImagem"> Estacionamento</p>
-            </div>
-        </div>
+            <input type="submit" value="Enviar" class="enviar">
+        </form>
 
     </main>
 
